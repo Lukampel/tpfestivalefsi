@@ -30,7 +30,7 @@ export default function CampoFormulario<T extends FieldValues, N extends FieldPa
             onBlur={onBlur}
             onChangeText={onChange}
             value={(value as string) ?? ''}
-            placeholderTextColor="#a698c4"
+            placeholderTextColor="#93c5fd"
             {...textInputProps}
           />
           {error?.message ? <Text style={styles.mensajeError}>{error.message}</Text> : null}
@@ -42,17 +42,17 @@ export default function CampoFormulario<T extends FieldValues, N extends FieldPa
 
 const styles = StyleSheet.create({
   contenedor: { marginBottom: 16 },
-  etiqueta: { fontSize: 14, fontWeight: '600', color: '#2d1b4e', marginBottom: 6 },
+  etiqueta: { fontSize: 14, fontWeight: '600', color: '#2563eb', marginBottom: 6 },
   input: {
     borderWidth: 1.5,
-    borderColor: '#d8cdf0',
+    borderColor: '#bfdbfe',
     borderRadius: 10,
     paddingHorizontal: 14,
     paddingVertical: 10,
     fontSize: 16,
     backgroundColor: '#ffffff',
-    color: '#2d1b4e',
+    color: '#1e3a8a',
   },
-  inputError: { borderColor: '#e0475c' },
-  mensajeError: { color: '#e0475c', fontSize: 12, marginTop: 4 },
+  inputError: { borderColor: '#ec4899' },
+  mensajeError: { color: '#ec4899', fontSize: 12, marginTop: 4 },
 });

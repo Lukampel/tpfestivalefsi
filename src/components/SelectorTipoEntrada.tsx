@@ -57,21 +57,21 @@ export default function SelectorTipoEntrada<T extends FieldValues, N extends Fie
 
 const styles = StyleSheet.create({
   contenedor: { marginBottom: 16 },
-  etiqueta: { fontSize: 14, fontWeight: '600', color: '#2d1b4e', marginBottom: 6 },
+  etiqueta: { fontSize: 14, fontWeight: '600', color: '#2563eb', marginBottom: 6 },
   opciones: { flexDirection: 'row', gap: 12 },
   opcion: {
     flex: 1,
     borderWidth: 1.5,
-    borderColor: '#d8cdf0',
+    borderColor: '#bfdbfe',
     borderRadius: 12,
     paddingVertical: 14,
     paddingHorizontal: 10,
     backgroundColor: '#ffffff',
     alignItems: 'center',
   },
-  opcionSeleccionada: { backgroundColor: '#6c3ce0', borderColor: '#6c3ce0' },
-  opcionTitulo: { fontSize: 16, fontWeight: '700', color: '#2d1b4e' },
-  opcionDescripcion: { fontSize: 11, color: '#7a6f96', marginTop: 2, textAlign: 'center' },
+  opcionSeleccionada: { backgroundColor: '#ec4899', borderColor: '#ec4899' },
+  opcionTitulo: { fontSize: 16, fontWeight: '700', color: '#1e3a8a' },
+  opcionDescripcion: { fontSize: 11, color: '#3b82f6', marginTop: 2, textAlign: 'center' },
   textoSeleccionado: { color: '#ffffff' },
-  mensajeError: { color: '#e0475c', fontSize: 12, marginTop: 4 },
+  mensajeError: { color: '#ec4899', fontSize: 12, marginTop: 4 },
 });

@@ -190,18 +190,18 @@ export default function InscripcionScreen() {
 }
 
 const styles = StyleSheet.create({
-  pantalla: { flex: 1, backgroundColor: '#f4f0fb' },
+  pantalla: { flex: 1, backgroundColor: '#eaf4ff' },
   contenido: { padding: 24, paddingBottom: 48 },
-  titulo: { fontSize: 30, fontWeight: '800', color: '#2d1b4e', textAlign: 'center' },
-  subtitulo: { fontSize: 14, color: '#7a6f96', textAlign: 'center', marginBottom: 24 },
+  titulo: { fontSize: 30, fontWeight: '800', color: '#ec4899', textAlign: 'center' },
+  subtitulo: { fontSize: 14, color: '#3b82f6', textAlign: 'center', marginBottom: 24 },
   boton: {
     marginTop: 8,
-    backgroundColor: '#6c3ce0',
+    backgroundColor: '#3b82f6',
     borderRadius: 12,
     paddingVertical: 16,
     alignItems: 'center',
   },
-  botonDeshabilitado: { backgroundColor: '#c3b7de' },
+  botonDeshabilitado: { backgroundColor: '#b9d3f7' },
   botonTexto: { color: '#ffffff', fontSize: 16, fontWeight: '700' },
   botonEnviando: { flexDirection: 'row', alignItems: 'center', gap: 10 },
 });
